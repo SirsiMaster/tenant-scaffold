@@ -1,0 +1,14 @@
+{
+    "name": "{{TENANT_SLUG}}",
+    "private": true,
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "dev": "echo 'Configure your dev server in packages/{{TENANT_SLUG}}-app/'",
+        "build": "echo 'Configure your build in packages/{{TENANT_SLUG}}-app/'",
+        "lint": "echo 'Configure linting'"
+    },
+    "workspaces": [
+        "packages/*"
+    ]
+}
